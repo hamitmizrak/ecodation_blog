@@ -1,3 +1,10 @@
+/* 
+project name: blog 
+project date: 13 mart 2022
+project author: Hamit Mızrak
+project version: 1.0
+*/
+
 /* all project css */
 *{
     box-sizing: border-box;
@@ -9,6 +16,37 @@ html{
     font-size: 20px;
 }
 
+.f10{
+font-size: 0.5rem;
+}
+
+.f20{
+    font-size: 1rem;
+}
+
 body{
     font-family: 'PT Serif', serif;
 }
+
+/* header */
+header .jumbotron{
+    background-image: url(img/beach-gb20ac2aa8_1920.jpg);
+    background-size: cover;
+    background-position: 25% 50%;
+    height: 40rem;
+    z-index: -1;
+    opacity: .9;
+    padding-top:15rem;
+}
+
+#header_h1,#header_p{
+    color:black;
+    background: rgba(155, 123, 228, 0.133);
+}
+
+
+/* main */
+
+
+
+/* footer*/
