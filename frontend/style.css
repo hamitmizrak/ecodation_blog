@@ -106,7 +106,12 @@ header .jumbotron {
 }
 
 .card img {
-    height: 35rem;
+    height: 25rem;
+}
+
+.card_tag a {
+    background-color: chartreuse;
+    color: black;
 }
 
 
