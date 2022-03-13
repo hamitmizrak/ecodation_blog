@@ -5,42 +5,88 @@ project author: Hamit Mızrak
 project version: 1.0
 */
 
+
 /* all project css */
-*{
+
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-html{
+html {
     font-size: 20px;
 }
 
-.f10{
-font-size: 0.5rem;
+.f10 {
+    font-size: 0.5rem;
 }
 
-.f20{
+.f20 {
     font-size: 1rem;
 }
 
-body{
+body {
     font-family: 'PT Serif', serif;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+img:hover {
+    opacity: .9;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.line-clamp1 {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.line-clamp2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.line-clamp3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.line-clamp4 {
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+
 /* header */
-header .jumbotron{
+
+header .jumbotron {
     background-image: url(img/beach-gb20ac2aa8_1920.jpg);
     background-size: cover;
     background-position: 25% 50%;
     height: 40rem;
     z-index: -1;
     opacity: .9;
-    padding-top:15rem;
+    padding-top: 15rem;
 }
 
-#header_h1,#header_p{
-    color:black;
+#header_h1,
+#header_p {
+    color: black;
     background: rgba(155, 123, 228, 0.133);
 }
 
@@ -48,5 +94,11 @@ header .jumbotron{
 /* main */
 
 
-
 /* footer*/
+
+footer {
+    min-height: 21rem;
+    width: auto;
+    background: black;
+    color: white;
+}
