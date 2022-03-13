@@ -6,9 +6,6 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-
-
-
     <!-- Bootstrap CSS v5.0.2 -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" />
 
@@ -64,8 +61,8 @@
                                 Üye
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#login">Üye Girişi</a></li>
-                            <li><a class="dropdown-item" href="#register">Üye Ol</a></li>
+                            <li><a class="dropdown-item" href="#">Üye Girişi</a></li>
+                            <li><a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#register" href="#">Üye Ol</a></li>
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
@@ -86,6 +83,62 @@
         </div>
     </nav>
     <!-- navbar end -->
+
+    <!-- login modal -->
+    
+    <!-- register modal -->
+    <div class="modal fade" id="register">
+        <div class="modal-dialog-centered modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-uppercase " id="exampleModalLongTitle">Üye ol </h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <h3 class="text-center text-success">Register</h3>
+                    <div class="container">
+                        <div class="row">
+                            <div class="form-group">
+                                <span class="col-md-3"> <label for="name_surname" class="text-muted">Adınız
+                                        Soyadınız</label></span>
+                                <span class="col-md-9"> <input type="text" name="name_surname" id="name_surname"
+                                        class="form-control" required autofocus></span>
+                            </div>
+                            <div class="form-group">
+                                <span class="col-md-3"> <label for="email" class="text-muted">email </label></span>
+                                <span class="col-md-9"> <input type="email" name="email" id="email" class="form-control"
+                                        required></span>
+                            </div>
+    
+                            <div class="form-group">
+                                <span class="col-md-3"> <label for="password" class="text-muted">password </label></span>
+                                <span class="col-md-9"> <input type="password" name="password" id="password"
+                                        class="form-control" required></span>
+                            </div>
+                            <div class="form-group">
+                                <span class="col-md-3"> <label for="repassword" class="text-muted">repassword
+                                    </label></span>
+                                <span class="col-md-9"> <input type="password" name="repassword" id="repassword"
+                                        class="form-control" required></span>
+                            </div>
+                            <div class="form-group mt-3">
+                                <input type="reset" class="text-uppercase btn btn-danger" value="Temizle">
+                                <input type="submit" class="text-uppercase btn btn-primary" value="Gönder">
+                            </div>
+                        </div>
+                    </div>
+    
+    
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Kapat</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
     <!-- header start -->
