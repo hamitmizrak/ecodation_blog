@@ -1,7 +1,7 @@
 package com.hamitmizrak.utils;
 
 public class PermaLink {
-    //    GitHub link          :
+//    GitHub link          : https://github.com/hamitmizrak/ecodation_blog
 //    Emmet site               : https://docs.emmet.io/cheat-sheet/
 //    Visual studio codes      : https://code.visualstudio.com/download
 //    spring initialzr         : https://start.spring.io/
