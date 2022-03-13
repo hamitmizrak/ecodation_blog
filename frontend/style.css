@@ -28,6 +28,7 @@ html {
 
 body {
     font-family: 'PT Serif', serif;
+    background: #e4eaf3!important;
 }
 
 img {
@@ -92,6 +93,10 @@ header .jumbotron {
 
 
 /* main */
+
+.card-text {
+    text-align: justify;
+}
 
 
 /* footer*/
