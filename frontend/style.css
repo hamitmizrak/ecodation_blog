@@ -117,6 +117,28 @@ header .jumbotron {
     margin-top: 2rem;
 }
 
+.tagcloud a {
+    border: 1px solid black;
+    padding: 1px auto;
+    margin: 1px auto;
+    box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, .2);
+    background: blueviolet;
+    color: white;
+    font-size: 0.75rem;
+}
+
+.tagcloud a:hover {
+    border: 1px solid black;
+    box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, .2);
+    background: white;
+    color: blueviolet;
+}
+
+.image_galery img {
+    height: 200px;
+    width: 100%;
+}
+
 
 /* footer*/
 
