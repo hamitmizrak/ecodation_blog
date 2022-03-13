@@ -72,11 +72,18 @@ ul {
     overflow: hidden;
 }
 
+.line-clamp10 {
+    display: -webkit-box;
+    -webkit-line-clamp: 10;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
 
 /* header */
 
 header .jumbotron {
-    background-image: url(img/beach-gb20ac2aa8_1920.jpg);
+    background-image: url(img/beach-g78273bab5_1920.jpg);
     background-size: cover;
     background-position: 25% 50%;
     height: 40rem;
@@ -96,6 +103,10 @@ header .jumbotron {
 
 .card-text {
     text-align: justify;
+}
+
+.card img {
+    height: 35rem;
 }
 
 
